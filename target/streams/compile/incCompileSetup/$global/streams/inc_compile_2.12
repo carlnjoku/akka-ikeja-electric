@@ -1,0 +1,650 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart$delayedInit$body.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$$anonfun$receive$1.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$Greet$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$WhoToGreet$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$WhoToGreet.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$$anonfun$receive$2.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$Greeting$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$Greeting.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer1$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer1.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/BaseRoutes$.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/BaseRoutes.class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/SimpleRoutes.class
+binary dependencies:
+25 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> /Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> /Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Users/carl/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> /Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+4 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+2 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> /Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.AkkaQuickstart
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.AkkaQuickstart$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.AkkaQuickstart$delayedInit$body
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter$$anonfun$receive$1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter$Greet$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter$WhoToGreet
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Greeter$WhoToGreet$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Printer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Printer$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Printer$$anonfun$receive$2
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Printer$Greeting
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com.lightbend.akka.sample.Printer$Greeting$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> com.lightbend.akka.sample.WebServer1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> com.lightbend.akka.sample.WebServer1$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> com.lightbend.akka.sample.WebServer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> com.lightbend.akka.sample.WebServer$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> com.lightbend.akka.sample.routes.BaseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> com.lightbend.akka.sample.routes.BaseRoutes$
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> com.lightbend.akka.sample.routes.SimpleRoutes
+used names:
+439 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> !
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> &&
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> <byname>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> <init>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> <repeated>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ==
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> A
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> A1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> AbstractFunction1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> AbstractPartialFunction
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Actor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ActorLogging
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ActorRef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ActorSystem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> AkkaQuickstart
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Any
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> AnyRef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> App
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> B1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Boolean
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Class
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ClassTag
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Function1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Future
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Greet
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Greeter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Greeting
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> IndexOutOfBoundsException
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Int
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Iterator
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> LoggingAdapter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> None
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Nothing
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Object
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Option
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Predef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Printer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Product
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Props
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ScalaActorRef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ScalaRunTime
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Serializable
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Some
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> StdIn
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> String
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> StringContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> T
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> T0
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Terminated
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> Unit
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> WhoToGreet
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> _$7
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> _hashCode
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> _root_
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> _toString
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> actor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> actorOf
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> actorRef2Scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> akka
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> apply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> asInstanceOf
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> com
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> eq
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> goodDayGreeter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> greeting
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> greeting_=
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> helloGreeter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> howdyGreeter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> info
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> io
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> isInstanceOf
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> lightbend
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> log
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> materializeClassTag
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> message
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> package
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> printer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> printerActor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> println
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> props
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$2
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$3
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$4
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$5
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$6
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$7
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> qual$8
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> readLine
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> reflect
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> runtime
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> s
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> sample
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> self
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> sender
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> system
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> terminate
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> toString
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> typedProductIterator
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> unchecked
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> who
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$10
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$11
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$12
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$13
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$14
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$15
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$16
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$2
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$3
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$4
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$5
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$6
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$7
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$8
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> x$9
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> ||
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> <init>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> <repeated>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ActorMaterializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ActorMaterializerSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ActorRefFactory
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ActorSystem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Any
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Array
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> BaseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ConnectionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Directives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ExceptionHandler
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ExecutionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ExecutionContextExecutor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Flow
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Function1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Future
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> HttpExt
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> HttpRequest
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> HttpResponse
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Int
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> LoggingAdapter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Materializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> NotUsed
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Nothing
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Object
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Option
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ParserSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Predef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RejectionHandler
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Route
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RouteConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RouteResult
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RouteWithConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RoutingLog
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> RoutingSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> S
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ServerBinding
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ServerSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> SimpleRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> SparkSession
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> StdIn
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> String
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> StringContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Terminated
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Try
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> U
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> Unit
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> WebServer1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> _enhanceRouteWithConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> actor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> akka
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> apache
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> apply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> baseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> bindAndHandle
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> bindingFuture
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> com
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> default
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> dispatcher
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> executionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> flatMap
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> fromActorSystem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> io
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> lightbend
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> materializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> onComplete
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> org
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> package
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> println
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> qual$1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> readLine
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> route2HandlerFlow
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> routes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> s
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> sample
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> scaladsl
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> server
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> settings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> simpleRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> spark
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> sql
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> stream
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> system
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> terminate
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> unbind
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$10
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$11
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$12
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$13
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$14
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$15
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$16
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$3
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$4
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$5
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$6
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$7
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$8
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> x$9
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> ~
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> <init>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> <repeated>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ActorMaterializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ActorMaterializerSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ActorRefFactory
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ActorSystem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Any
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Array
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> BaseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Builder
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ConnectionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> DataFrame
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> DataFrameReader
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Directives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ExceptionHandler
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ExecutionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ExecutionContextExecutor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Flow
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Function1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Future
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> HttpExt
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> HttpRequest
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> HttpResponse
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Int
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> LoggingAdapter
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Materializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> NotUsed
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Nothing
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Object
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Option
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ParserSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Predef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RejectionHandler
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Route
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RouteConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RouteResult
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RouteWithConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RoutingLog
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> RoutingSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> S
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ServerBinding
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ServerSettings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> SimpleRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> SparkSession
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> StdIn
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> String
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> StringContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Terminated
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Try
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> U
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> Unit
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> WebServer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> _enhanceRouteWithConcatenation
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> actor
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> akka
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> apache
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> appName
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> apply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> baseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> bindAndHandle
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> bindingFuture
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> builder
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> com
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> csv
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> default
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> dispatcher
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> executionContext
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> flatMap
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> format
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> fromActorSystem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> getOrCreate
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> implicits
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> io
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> lightbend
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> master
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> materializer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> onComplete
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> option
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> org
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> package
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> println
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> qual$1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> read
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> readLine
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> route2HandlerFlow
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> routes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> s
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> sample
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> scaladsl
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> server
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> settings
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> simpleRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> spark
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> sql
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> stream
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> system
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> terminate
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> unbind
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$10
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$11
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$12
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$13
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$14
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$15
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$16
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$3
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$4
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$5
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$6
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$7
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$8
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> x$9
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> ~
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> <byname>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> <init>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> A
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Any
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> AnyRef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> BaseRoutes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Directive
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Directive0
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Function1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Marshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Nothing
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Object
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> PathDirectives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Predef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> Route
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> RouteDirectives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> StandardRoute
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> String
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> StringMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> T
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> ToEntityMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> ToResponseMarshallable
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> ToResponseMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> addByNameNullaryApply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> akka
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> apply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> com
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> complete
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> directives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> liftMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> lightbend
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> marshalling
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> package
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> pathEndOrSingleSlash
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> routes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> sample
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> scaladsl
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> server
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> $buf
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> &+
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> <byname>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> <init>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> <repeated>
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> A
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Any
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> AnyRef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Boolean
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Directive
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Directive0
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Elem
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Function1
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> L
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Marshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> MetaData
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> MethodDirectives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> NamespaceBinding
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Node
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> NodeBuffer
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> NodeSeq
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Nothing
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Null
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> PathDirectives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> PathMatcher
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> PathMatcher0
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Predef
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Route
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> RouteDirectives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> ScalaXmlSupport
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> StandardRoute
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> String
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> T
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> Text
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> ToEntityMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> ToResponseMarshallable
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> ToResponseMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> TopScope
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> _segmentStringToPathMatcher
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> addByNameNullaryApply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> akka
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> apply
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> com
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> complete
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> defaultNodeSeqMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> directives
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> get
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> http
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> liftMarshaller
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> lightbend
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> marshallers
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> marshalling
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> package
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> path
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> routes
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> sample
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> scala
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> scaladsl
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> server
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> xml
+product stamps:
+21 items
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart$delayedInit$body.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/AkkaQuickstart.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$$anonfun$receive$1.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$Greet$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$WhoToGreet$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter$WhoToGreet.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Greeter.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$$anonfun$receive$2.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$Greeting$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer$Greeting.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/Printer.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer$.class -> lastModified(1497803946000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer.class -> lastModified(1497803946000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer1$.class -> lastModified(1497801756000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/WebServer1.class -> lastModified(1497801756000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/BaseRoutes$.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/BaseRoutes.class -> lastModified(1497798387000)
+/Users/carl/akka-quickstart-scala/target/scala-2.12/classes/com/lightbend/akka/sample/routes/SimpleRoutes.class -> lastModified(1497798387000)
+source stamps:
+5 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> hash(f8b818cecfd4cbfd694fc1ab1f61d2871f9bb8e8)
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> hash(24df38db3bc7ddceae118c121432a4a54d4609b4)
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> hash(c65cc10f7bf06706919cf814ae6547e21b43a089)
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> hash(d6c14db37c535ff736b1855639e23d82307690aa)
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> hash(afac8876aad8152dbabe0a80b67634d3ecfd0a77)
+binary stamps:
+9 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1481605174000)
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.2.jar -> lastModified(1495619304000)
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar -> lastModified(1495727907000)
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.7.jar -> lastModified(1495727915000)
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar -> lastModified(1495727922000)
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.2.jar -> lastModified(1495619455000)
+/Users/carl/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> lastModified(1493167860000)
+/Users/carl/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar -> lastModified(1478010075000)
+/Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+class names:
+9 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.2.jar -> akka.NotUsed
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.7.jar -> akka.http.scaladsl.settings.RoutingSettings
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.7.jar -> akka.http.scaladsl.marshallers.xml.ScalaXmlSupport
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.7.jar -> akka.http.scaladsl.server.Directives
+/Users/carl/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.2.jar -> akka.stream.ActorMaterializer
+/Users/carl/.ivy2/cache/org.apache.spark/spark-sql_2.11/jars/spark-sql_2.11-2.1.1.jar -> org.apache.spark.sql.SparkSession
+/Users/carl/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar -> scala.xml.Null$
+/Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.concurrent.ExecutionContext
+internal apis:
+5 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcBOfYwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCC9E0VdAAEc2VsZnNxAH4AC2pxEA50AAdjb250ZXh0dXEAfgAJAAAAPXNxAH4AC4uHP5F0AAZub3RpZnlzcQB+AAsv9gz6dAAHdW5hcHBseXNxAH4AC23ATfJ0AAdSZWNlaXZlc3EAfgALWKf86HQABHdhaXRzcQB+AAtmfgSHdAANJGFzSW5zdGFuY2VPZnNxAH4ACzL4kGx0AAZzeXN0ZW1zcQB+AAtDdbKWdAAHY29tcG9zZXNxAH4AC3H2/JN0AAdHcmVldGVyc3EAfgALB6DumXQADHByb2R1Y3RBcml0eXNxAH4AC/QBb9h0AAZlcXVhbHNzcQB+AAtn2g24dAAIR3JlZXRpbmdzcQB+AAuYLQGYdAAMYXNJbnN0YW5jZU9mc3EAfgALX3L4HXQADmV4ZWN1dGlvblN0YXJ0c3EAfgAL1FJk13QABUdyZWV0c3EAfgALlir0aHQADHN5bmNocm9uaXplZHNxAH4AC/nWwxV0AA0kaXNJbnN0YW5jZU9mc3EAfgALzqB+dXQAB2FuZFRoZW5zcQB+AAvnNOcYdAAHcmVjZWl2ZXNxAH4AC7k3Wtl0AApwcmVSZXN0YXJ0c3EAfgALbwhLH3QADWFyb3VuZFJlY2VpdmVzcQB+AAscDAQedAAIY2FuRXF1YWxzcQB+AAtVT4NFdAALcG9zdFJlc3RhcnRzcQB+AAtU/KOndAAEbWFpbnNxAH4AC3PBHHh0AAhwb3N0U3RvcHNxAH4ACx/PCSR0AAdQcmludGVyc3EAfgALQivB5HQADXByb2R1Y3RQcmVmaXhzcQB+AAv0ZaBydAAJbm90aWZ5QWxsc3EAfgALbRNXbHQAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALgtI6GHQADGlzSW5zdGFuY2VPZnNxAH4ACzUDY/90ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALLbN9xnQADmFyb3VuZFBvc3RTdG9wc3EAfgAL42bgrXQABjxpbml0PnNxAH4AC6cuSUx0AAhwcmVTdGFydHNxAH4AC4NDo4d0AAl1bmhhbmRsZWRzcQB+AAtUppngdAAFYXBwbHlzcQB+AAt2kMIhdAADd2hvc3EAfgALi0C9VnQACldob1RvR3JlZXRzcQB+AAu0S9VLdAACPT1zcQB+AAuHBQfrdAAFY2xvbmVzcQB+AAtslcZrdAAGJGluaXQkc3EAfgALHNaMoHQACGdyZWV0aW5nc3EAfgALnCmVPHQABGNvcHlzcQB+AAtfJu6gdAAGc2VuZGVyc3EAfgALT1SSSHQACHRvU3RyaW5nc3EAfgALnfVX2XQABGFyZ3NzcQB+AAvktCsQdAACIT1zcQB+AAvaSKfzdAAIZ2V0Q2xhc3NzcQB+AAvEjkscdAAOY29weSRkZWZhdWx0JDFzcQB+AAtGgveqdAAFcHJvcHNzcQB+AAtQMvazdAACbmVzcQB+AAufeR6gdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALTWP0qnQAAmVxc3EAfgALKlLra3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ACwzv4pV0AANsb2dzcQB+AAvpGvZ/dAALZGVsYXllZEluaXRzcQB+AAvIICEOdAAOQWtrYVF1aWNrc3RhcnRzcQB+AAspWJ65dAACIyNzcQB+AAtJ3I1tdAAIZmluYWxpemVzcQB+AAtMN+WNdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAtJl3yBdAAIaGFzaENvZGVzcQB+AAvlDA2mdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAFc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAhY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5HcmVldGVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCtc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AJVMAAlpbmhlcml0ZWRxAH4AlUwAB3BhcmVudHNxAH4AlXhxAH4AsnNxAH4ArXVxAH4AkAAAAABzcQB+AK11cQB+AJAAAAAAc3EAfgCtdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCxdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCxc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDKdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDLc3EAfgC+dAADQW55c3EAfgDCc3EAfgDFdXEAfgDIAAAAAnNxAH4AynQABXNjYWxhcQB+ANFzcQB+AJJxAH4An3VxAH4AoAAAAABzcQB+AKIAdAAhY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5HcmVldGVydXEAfgClAAAAAH5xAH4Ap3QACENsYXNzRGVmdXEAfgCrAAAAAHNxAH4ArXEAfgCzc3EAfgCtc3EAfgC1c3EAfgCtdXEAfgCQAAAAAHNxAH4ArXVxAH4AkAAAAABzcQB+AK11cQB+ALwAAAADc3EAfgC+dAAFQWN0b3JzcQB+AMJzcQB+AMV1cQB+AMgAAAADc3EAfgDKdAAEYWtrYXNxAH4AynQABWFjdG9ycQB+ANFzcQB+AL5xAH4AwXNxAH4AwnNxAH4AxXVxAH4AyAAAAANzcQB+AMpxAH4AzXNxAH4AynEAfgDPcQB+ANFzcQB+AL5xAH4A03NxAH4AwnNxAH4AxXVxAH4AyAAAAAJzcQB+AMpxAH4A2HEAfgDRc3EAfgCScQB+AJ91cQB+AKAAAAAAc3EAfgCiAHQAIWNvbS5saWdodGJlbmQuYWtrYS5zYW1wbGUuUHJpbnRlcnVxAH4ApQAAAABxAH4AqXVxAH4AqwAAAABzcQB+AK1xAH4As3NxAH4ArXNxAH4AtXNxAH4ArXVxAH4AkAAAAABzcQB+AK11cQB+AJAAAAAAc3EAfgCtdXEAfgC8AAAAAnNxAH4AvnEAfgDBc3EAfgDCc3EAfgDFdXEAfgDIAAAAA3NxAH4AynEAfgDNc3EAfgDKcQB+AM9xAH4A0XNxAH4AvnEAfgDTc3EAfgDCc3EAfgDFdXEAfgDIAAAAAnNxAH4AynEAfgDYcQB+ANFzcQB+AJJxAH4An3VxAH4AoAAAAABzcQB+AKIAdAAhY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5QcmludGVydXEAfgClAAAAAHEAfgDedXEAfgCrAAAAAHNxAH4ArXEAfgCzc3EAfgCtc3EAfgC1c3EAfgCtdXEAfgCQAAAAAHNxAH4ArXVxAH4AkAAAAABzcQB+AK11cQB+ALwAAAAEc3EAfgC+dAAMQWN0b3JMb2dnaW5nc3EAfgDCc3EAfgDFdXEAfgDIAAAAA3NxAH4AynQABGFra2FzcQB+AMp0AAVhY3RvcnEAfgDRc3EAfgC+dAAFQWN0b3JxAH4BKXNxAH4AvnEAfgDBc3EAfgDCc3EAfgDFdXEAfgDIAAAAA3NxAH4AynEAfgDNc3EAfgDKcQB+AM9xAH4A0XNxAH4AvnEAfgDTc3EAfgDCc3EAfgDFdXEAfgDIAAAAAnNxAH4AynEAfgDYcQB+ANFzcQB+AJJxAH4An3VxAH4AoAAAAABzcQB+AKIAdAAoY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5Ba2thUXVpY2tzdGFydHVxAH4ApQAAAABxAH4AqXVxAH4AqwAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcQB+AK1xAH4As3NxAH4ArXNxAH4AtXNxAH4ArXVxAH4AkAAAAABzcQB+AK11cQB+AJAAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AJZxAH4An3VxAH4AoAAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AU14cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3EAfgC+dAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcQB+AMJzcQB+AMV1cQB+AMgAAAACc3EAfgDKcQB+ANhxAH4A0XNxAH4AogBxAH4AP3VxAH4ApQAAAABzcQB+AL50AARVbml0cQB+AVx1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADEwAA3RwZXEAfgFNeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCodAAFUGxhaW5xAH4Aa3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Av1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AsXNxAH4AvnQABUFycmF5cQB+AVx1cQB+ALwAAAABc3EAfgC+dAAGU3RyaW5nc3EAfgDCc3EAfgDFdXEAfgDIAAAAA3NxAH4AynEAfgDNc3EAfgDKcQB+AM9xAH4A0XNxAH4ArXVxAH4AvAAAAARzcQB+AL50AANBcHBxAH4BXHNxAH4AvnQAC0RlbGF5ZWRJbml0cQB+AVxzcQB+AL5xAH4AwXEAfgF5c3EAfgC+cQB+ANNxAH4BXHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAGWNvbS5saWdodGJlbmQuYWtrYS5zYW1wbGVzcQB+AYh0ABJjb20ubGlnaHRiZW5kLmFra2FzcQB+AYh0AANjb21zcQB+AYh0AA1jb20ubGlnaHRiZW5kc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcu72EAHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADsvVXNlcnMvY2FybC9ha2thLXF1aWNrc3RhcnQtc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPi4GM7P1Mv9aU/Bqx9h0ocfm7jo
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwPYsswQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAlzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDMrDr8dAAKX3N5bWJvbDJOUnNxAH4AC5QpDA50AAJldnNxAH4ACwftNg90AB5fZW5oYW5jZVJvdXRlV2l0aENvbmNhdGVuYXRpb25zcQB+AAs45BoYdAAVX3ZhbHVlTWFwMlBhdGhNYXRjaGVyc3EAfgALbnZMp3QAJ19zdHJpbmdOYW1lT3B0aW9uUmVjZXB0YWNsZTJQYXRoTWF0Y2hlcnNxAH4AC54WuWl0ACFfc3RyaW5nRXh0cmFjdGlvblBhaXIyUGF0aE1hdGNoZXJzcQB+AAsNyIoadAAbX3NlZ21lbnRTdHJpbmdUb1BhdGhNYXRjaGVyc3EAfgALB1+oV3QACl9zdHJpbmcyTlJzcQB+AAuDfu1NdAASX3JlZ2V4MlBhdGhNYXRjaGVydXEAfgAJAAAA53NxAH4AC/p/cvt0ABVleHRyYWN0UGFyc2VyU2V0dGluZ3NzcQB+AAtW38lDdAAJZm9ybUZpZWxkc3EAfgALaJolHHQAEHdpdGhSYW5nZVN1cHBvcnRzcQB+AAtqqJe+dAASd2l0aFJlcXVlc3RUaW1lb3V0c3EAfgALqT86nXQAFHBhdGhFbmRPclNpbmdsZVNsYXNoc3EAfgALxP0Fx3QABm5vdGlmeXNxAH4AC7eOz+90AAlJbnROdW1iZXJzcQB+AAuvrt12dAARYXV0aGVudGljYXRlQmFzaWNzcQB+AAu6HZnCdAATZXh0cmFjdFN0cmljdEVudGl0eXNxAH4AC3dP29N0AA9wYXRoU2luZ2xlU2xhc2hzcQB+AAu4KjERdAAYcmVzcG9uc2VFbmNvZGluZ0FjY2VwdGVkc3EAfgALJYs/YXQABm1ldGhvZHNxAH4AC2w1EDJ0AARwb3N0c3EAfgALsuSQq3QAEm1hcFJvdXRlUmVzdWx0V2l0aHNxAH4AC5cSnxl0ABdhdXRoZW50aWNhdGVPQXV0aDJBc3luY3NxAH4AC3MXlB50ABFoZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC6XZNS90AApmaWxlVXBsb2Fkc3EAfgALA64w+XQADVJlbWFpbmluZ1BhdGhzcQB+AAuETKfedAAJUmVtYWluaW5nc3EAfgAL0wCCynQAFW9wdGlvbmFsSGVhZGVyVmFsdWVQRnNxAH4AC0OSfx50AAh0cHJvdmlkZXNxAH4AC6w7eb50AAlwYXJhbWV0ZXJzcQB+AAt3JsCxdAANZXh0cmFjdE1ldGhvZHNxAH4ACwXH2YF0ABlyZXNwb25kV2l0aERlZmF1bHRIZWFkZXJzc3EAfgALRzt0vHQAEnJlc3BvbmRXaXRoSGVhZGVyc3NxAH4AC0RvaeV0ABp3aXRoUmVxdWVzdFRpbWVvdXRSZXNwb25zZXNxAH4AC9LH7M90AAR3YWl0c3EAfgALEYVfr3QAFWxpc3REaXJlY3RvcnlDb250ZW50c3NxAH4ACwEBDit0ABlleHRyYWN0VXBncmFkZVRvV2ViU29ja2V0c3EAfgALKny0n3QADSRhc0luc3RhbmNlT2ZzcQB+AAuyAasEdAAEcGF0aHNxAH4AC+duqxB0ABlleHRyYWN0T2ZmZXJlZFdzUHJvdG9jb2xzc3EAfgALeIGfVHQABnJvdXRlc3NxAH4AC01eU550AAppbnN0YW5jZU9mc3EAfgALzwcA7HQAB05ldXRyYWxzcQB+AAv/ekRhdAAHY29tcG9zZXNxAH4ACwkSmKN0AAhyZWRpcmVjdHNxAH4AC1tOuwx0ABJyZXF1ZXN0RW50aXR5RW1wdHlzcQB+AAv4j/7VdAANaGVhZGVyVmFsdWVQRnNxAH4AC9Uxd+d0AA5hdXRob3JpemVBc3luY3NxAH4AC0VT/lx0AAdQYXRoRW5kc3EAfgALrAYPAHQAD2Zyb21EZWNpbWFsQ2hhcnNxAH4ACyP/npB0AAxmb3JtRmllbGRNYXBzcQB+AAtI/rY0dAAQZXh0cmFjdERhdGFCeXRlc3NxAH4AC/vr9i90AAZlcXVhbHNzcQB+AAsrxh9fdAAPQXV0aGVudGljYXRvclBGc3EAfgALgbrpHnQAE2lnbm9yZVRyYWlsaW5nU2xhc2hzcQB+AAtN7Tz0dAAIbWludXNPbmVzcQB+AAsermmcdAARcmF3UGF0aFByZWZpeFRlc3RzcQB+AAv+EIFXdAAYZ2V0RnJvbVJlc291cmNlRGlyZWN0b3J5c3EAfgALGLK4v3QAE29wdGlvbmFsSGVhZGVyVmFsdWVzcQB+AAsKacL1dAAQZ2V0RnJvbURpcmVjdG9yeXNxAH4AC97Y2B90AAh0ZXh0cmFjdHNxAH4ACy7bhjZ0AAptYXhEaXZCYXNlc3EAfgAL+P0wXnQAImdldEZyb21SZXNvdXJjZURpcmVjdG9yeSRkZWZhdWx0JDJzcQB+AAs9TII8dAAKV2ViU2VydmVyMXNxAH4ACyrgZDl0AAttYXBTZXR0aW5nc3NxAH4AC51DXJV0AARoZWFkc3EAfgALa1SvS3QAF2hhbmRsZVdlYlNvY2tldE1lc3NhZ2Vzc3EAfgALuUValHQADGFzSW5zdGFuY2VPZnNxAH4AC94T+ap0ABBoYW5kbGVSZWplY3Rpb25zc3EAfgALUJUCoHQACnBhdGhQcmVmaXhzcQB+AAv1iGiRdAANSGV4TG9uZ051bWJlcnNxAH4AC1thyDB0ACpoYW5kbGVXZWJTb2NrZXRNZXNzYWdlc0Zvck9wdGlvbmFsUHJvdG9jb2xzcQB+AAtspvkLdAAMSGV4SW50TnVtYmVyc3EAfgALE5wm+HQABGhvc3RzcQB+AAs3n4aTdAAYcmVzcG9uZFdpdGhEZWZhdWx0SGVhZGVyc3EAfgALbl7S9nQADHBhcmFtZXRlck1hcHNxAH4AC/XkOrV0AA50b1N0cmljdEVudGl0eXNxAH4ACxmL+mR0AApMb25nTnVtYmVyc3EAfgALDAtqFXQACHZhbGlkYXRlc3EAfgALgRpRbHQADHN5bmNocm9uaXplZHNxAH4AC8xlEB10ABNyZWplY3RFbXB0eVJlc3BvbnNlc3EAfgALxRILo3QACGZyb21DaGFyc3EAfgALhiliUXQAB3VuYXJ5XyFzcQB+AAtNXy61dAAPZ2V0RnJvbVJlc291cmNlc3EAfgALpyvolHQAEnJlcXVlc3RFbmNvZGVkV2l0aHNxAH4AC172wG10AAZjb25jYXRzcQB+AAtV8PtCdAAhd2l0aFByZWNvbXByZXNzZWRNZWRpYVR5cGVTdXBwb3J0c3EAfgALA05LmXQAEmF1dGhlbnRpY2F0ZU9BdXRoMnNxAH4AC1/MFaB0ABVyZWNvdmVyUmVqZWN0aW9uc1dpdGhzcQB+AAvQTx7WdAANJGlzSW5zdGFuY2VPZnNxAH4AC9vpLtV0AA9jYW5jZWxSZWplY3Rpb25zcQB+AAtij/FRdAAgcmVkaXJlY3RUb1RyYWlsaW5nU2xhc2hJZk1pc3NpbmdzcQB+AAstztxMdAAHYW5kVGhlbnNxAH4AC5t7InR0AAxkZWxldGVDb29raWVzcQB+AAtFLmmKdAACYXNzcQB+AAspppUPdAANZXh0cmFjdFNjaGVtZXNxAH4ACwck0gF0ABJBc3luY0F1dGhlbnRpY2F0b3JzcQB+AAusdkhgdAAYYXV0aGVudGljYXRlQmFzaWNQRkFzeW5jc3EAfgAL5OKVqXQAAXxzcQB+AAsbfRaWdAALZXh0cmFjdEhvc3RzcQB+AAuEeDoHdAAWZGVsZXRlQ29va2llJGRlZmF1bHQkM3NxAH4ACx9Izz90ABJtYXBSZXNwb25zZUhlYWRlcnNzcQB+AAszSDmzdAAUcmVxdWVzdEVudGl0eVByZXNlbnRzcQB+AAsCvoVsdAAOZW5jb2RlUmVzcG9uc2VzcQB+AAvUkEBmdAAEbWFpbnNxAH4AC8ZeuJ10ABJleHRyYWN0QWN0b3JTeXN0ZW1zcQB+AAsMkHcadAAMc2ltcGxlUm91dGVzc3EAfgALb7ZJpXQAFWV4dHJhY3RSZXF1ZXN0Q29udGV4dHNxAH4AC2NK2Qd0ABJlbmNvZGVSZXNwb25zZVdpdGhzcQB+AAsdQe2rdAAHcHJvdmlkZXNxAH4AC8jm3/90AAZyZWplY3RzcQB+AAuCPOeUdAAJbm90aWZ5QWxsc3EAfgALhboobHQAGmdldEZyb21Ccm93c2VhYmxlRGlyZWN0b3J5c3EAfgALoBDbp3QAC2NvbmRpdGlvbmFsc3EAfgALheQt/3QAGW9wdGlvbmFsSGVhZGVyVmFsdWVCeU5hbWVzcQB+AAs1eCRLdAAEdG1hcHNxAH4ACznKWzB0AApleHRyYWN0VXJpc3EAfgALJgXmonQADGlzSW5zdGFuY2VPZnNxAH4AC9efYtd0ACJyZWRpcmVjdFRvTm9UcmFpbGluZ1NsYXNoSWZQcmVzZW50c3EAfgALj0nBaHQAB3BhdGhFbmRzcQB+AAvDDHM5dAANcmF3UGF0aFByZWZpeHNxAH4AC36HaB10AAdvcHRpb25zc3EAfgAL7DS6xnQACm1hcFJlcXVlc3RzcQB+AAv2sTiBdAAiaGFuZGxlV2ViU29ja2V0TWVzc2FnZXNGb3JQcm90b2NvbHNxAH4ACyn2KuB0AAlvblN1Y2Nlc3NzcQB+AAtsGGWFdAARbWFwUmVzcG9uc2VFbnRpdHlzcQB+AAt7Y9ljdAAUd2l0aEV4ZWN1dGlvbkNvbnRleHRzcQB+AAsNMWBPdAAIZmFpbFdpdGhzcQB+AAtCYfjKdAAQbWFwVW5tYXRjaGVkUGF0aHNxAH4AC5G/fHp0AAY8aW5pdD5zcQB+AAvFbeJOdAALZ2V0RnJvbUZpbGVzcQB+AAvNRofEdAAVb25Db21wbGV0ZVdpdGhCcmVha2Vyc3EAfgALYdfKXnQAEGxvZ1JlcXVlc3RSZXN1bHRzcQB+AAsNGwMfdAANbWFwSW5uZXJSb3V0ZXNxAH4ACyf8+N10AAdTZWdtZW50c3EAfgALWKY38XQACGNvbXBsZXRlc3EAfgAL/gAHhHQABWFwcGx5c3EAfgALRsHTrnQAEW1hcFJlcXVlc3RDb250ZXh0c3EAfgALk1tRVnQADnBhdGhQcmVmaXhUZXN0c3EAfgALLSf3VHQADUF1dGhlbnRpY2F0b3JzcQB+AAuAG1x/dAAcZ2V0RnJvbUJyb3dzZWFibGVEaXJlY3Rvcmllc3NxAH4ACx/OPfR0AAxjb21wbGV0ZVdpdGhzcQB+AAuN8O3PdAAMcGFyYW1ldGVyU2Vxc3EAfgALD1z/dnQADm9wdGlvbmFsQ29va2llc3EAfgAL8LPO1nQAAj09c3EAfgALn6AiwXQABnNjaGVtZXNxAH4ACwq29910ABRhdXRoZW50aWNhdGVPQXV0aDJQRnNxAH4AC3H6Gdl0AAZjb29raWVzcQB+AAsXMwsndAAUQXV0aGVudGljYXRpb25SZXN1bHRzcQB+AAtpro+9dAAFU2xhc2hzcQB+AAv8hyd8dAAFY2xvbmVzcQB+AAsLPlNOdAAJYXV0aG9yaXplc3EAfgALq5pNcnQAFG1hcFJvdXRlUmVzdWx0RnV0dXJlc3EAfgALsl73LHQAGWF1dGhlbnRpY2F0ZU9BdXRoMlBGQXN5bmNzcQB+AAuMqnfpdAAbUmVxdWVzdFRvU291cmNlVW5tYXJzaGFsbGVyc3EAfgALu/HOC3QAC2hlYWRlclZhbHVlc3EAfgALhay/xnQACmhhbmRsZVdpdGhzcQB+AAs+CtO3dAAQd2l0aE1hdGVyaWFsaXplcnNxAH4AC3JHHsF0AAZkZWxldGVzcQB+AAskIknmdAARcmVjb3ZlclJlamVjdGlvbnNzcQB+AAtvbl4rdAAGJGluaXQkc3EAfgALQONGUHQAFmRlbGV0ZUNvb2tpZSRkZWZhdWx0JDJzcQB+AAtymE3XdAAKYXNTb3VyY2VPZnNxAH4ACx11UjJ0AAZlbnRpdHlzcQB+AAsrjg57dAAJc2V0Q29va2llc3EAfgALThJJAHQABHBhc3NzcQB+AAsw04hedAAPZXh0cmFjdENsaWVudElQc3EAfgALdnqnKHQAA3B1dHNxAH4AC0kQxmF0ABNhdXRoZW50aWNhdGVCYXNpY1BGc3EAfgALZVf2enQAEXBhcmFtZXRlck11bHRpTWFwc3EAfgALeb2T5XQAEHJlcGVhdCRkZWZhdWx0JDNzcQB+AAumRMHsdAAQbWFwUm91dGVSZXN1bHRQRnNxAH4AC5bUjQ10AAh0b1N0cmluZ3NxAH4ACxKXWpl0ABNleHRyYWN0TWF0ZXJpYWxpemVyc3EAfgALJIR6NnQACWxvZ1Jlc3VsdHNxAH4ACxXaFqh0ABtvdmVycmlkZU1ldGhvZFdpdGhQYXJhbWV0ZXJzcQB+AAsIgm2qdAAHd2l0aExvZ3NxAH4AC+dqYi50AAhTZWdtZW50c3NxAH4AC0zlRWV0AA5tYXBSb3V0ZVJlc3VsdHNxAH4AC/JE0NB0AAIhPXNxAH4ACyVjTxV0ABRleHRyYWN0UmVxdWVzdEVudGl0eXNxAH4ACyPr2K50ABFmb3JtRmllbGRNdWx0aU1hcHNxAH4AC5dWDPF0AANnZXRzcQB+AAvGVWwfdAAUQXN5bmNBdXRoZW50aWNhdG9yUEZzcQB+AAtRymSidAANd2l0aFNpemVMaW1pdHNxAH4ACzpbn3h0AA5wYXRoU3VmZml4VGVzdHNxAH4AC/cQ8WB0AAh0ZmxhdE1hcHNxAH4AC2JPClF0ABdzZWxlY3RQcmVmZXJyZWRMYW5ndWFnZXNxAH4AC4JtGll0AAhnZXRDbGFzc3NxAH4AC1FEXBF0AAZyZXBlYXRzcQB+AAugVuwVdAARZGVjb2RlUmVxdWVzdFdpdGhzcQB+AAtzt6+wdAARaGVhZGVyVmFsdWVCeVR5cGVzcQB+AAsaC2X+dAAQaGFuZGxlRXhjZXB0aW9uc3NxAH4AC0SucSB0AApwYXRoU3VmZml4c3EAfgALmp05FnQAFWNvbXBsZXRlT3JSZWNvdmVyV2l0aHNxAH4ACzGWKYl0ABV3aXRob3V0UmVxdWVzdFRpbWVvdXRzcQB+AAuhXdD2dAAUbWFwUm91dGVSZXN1bHRXaXRoUEZzcQB+AAvizxtUdAAKb25Db21wbGV0ZXNxAH4AC6cg1d90AAttYXBSZXNwb25zZXNxAH4ACw6fvKJ0AAVwYXRjaHNxAH4AC5HpNMh0AAx1cGxvYWRlZEZpbGVzcQB+AAt24rtWdAAObm90aGluZ01hdGNoZXJzcQB+AAvlZXLqdAATX2RlZmF1bHRDbGFzc0xvYWRlcnNxAH4AC0ijTrZ0ABBjYW5jZWxSZWplY3Rpb25zc3EAfgALuCNW2nQACEphdmFVVUlEc3EAfgAL58TCwHQACmxvZ1JlcXVlc3RzcQB+AAukrnl4dAACbmVzcQB+AAuE/VM4dAANbWFwUmVqZWN0aW9uc3NxAH4ACySvmg10ABdleHRyYWN0RXhlY3V0aW9uQ29udGV4dHNxAH4AC6vAqXF0AApmb3JtRmllbGRzc3EAfgAL89stGXQACXRyYW5zZm9ybXNxAH4AC4F2EHZ0ABlnZXRGcm9tUmVzb3VyY2UkZGVmYXVsdCQzc3EAfgALS5E1FnQAFmF1dGhlbnRpY2F0ZUJhc2ljQXN5bmNzcQB+AAsdBLK+dAAKcGFyYW1ldGVyc3NxAH4AC5AGM7d0AAF+c3EAfgALxsiKfXQAFGV4dHJhY3RVbm1hdGNoZWRQYXRoc3EAfgAL8SXwRXQADU51bWJlck1hdGNoZXJzcQB+AAt/u+qldAAhYXV0aGVudGljYXRlT3JSZWplY3RXaXRoQ2hhbGxlbmdlc3EAfgALysSxoXQAD2NoZWNrU2FtZU9yaWdpbnNxAH4AC6gD6rZ0ABB3aXRob3V0U2l6ZUxpbWl0c3EAfgALMZaEcXQAAmVxc3EAfgALvmYUTXQADGZvcm1GaWVsZFNlcXNxAH4AC5zmZeJ0ABJleHRyYWN0TWF0Y2hlZFBhdGhzcQB+AAvOtPQhdAAMRG91YmxlTnVtYmVyc3EAfgALBGyF33QADHdpdGhTZXR0aW5nc3NxAH4AC2b8JIV0AAEvc3EAfgALNB+VHnQADmV4dHJhY3RSZXF1ZXN0c3EAfgALUQIY3HQACmV4dHJhY3RMb2dzcQB+AAuzHHnNdAASZXh0cmFjdENyZWRlbnRpYWxzc3EAfgALU/VNBHQADWRlY29kZVJlcXVlc3RzcQB+AAuZtyBadAARcmVzcG9uZFdpdGhIZWFkZXJzcQB+AAuCcfyndAACIyNzcQB+AAuNKPM4dAAIZmluYWxpemVzcQB+AAvO7OqNdAAHZXh0cmFjdHNxAH4AC7DZcWV0AAhoYXNoQ29kZXNxAH4AC7YN4S90AA9leHRyYWN0U2V0dGluZ3NzcQB+AAszK4KEdAALZnJvbUhleENoYXJzcQB+AAvqjEtbdAAZb3B0aW9uYWxIZWFkZXJWYWx1ZUJ5VHlwZXNxAH4ACx1LRJN0ABFzZXBhcmF0ZU9uU2xhc2hlc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+Afd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ACRjb20ubGlnaHRiZW5kLmFra2Euc2FtcGxlLldlYlNlcnZlcjF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+Ag9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4B90wACWluaGVyaXRlZHEAfgH3TAAHcGFyZW50c3EAfgH3eHEAfgIUc3EAfgIPdXEAfgHyAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgH4cQB+AgF1cQB+AgIAAAAAc3EAfgIEAHEAfgDhdXEAfgIHAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AhN0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgITc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgIvdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4CHHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4CCnQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4CI1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4CE3NxAH4CInQABUFycmF5cQB+Aih1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4CInQABlN0cmluZ3NxAH4CJnNxAH4CKXVxAH4CLAAAAANzcQB+Ai50AARqYXZhc3EAfgIudAAEbGFuZ3EAfgIzc3EAfgIPdXEAfgHyAAAAAHNxAH4CD3VxAH4CRwAAACFzcQB+AiJ0AAxTaW1wbGVSb3V0ZXNzcQB+AiZzcQB+Ail1cQB+AiwAAAAGc3EAfgIudAADY29tc3EAfgIudAAJbGlnaHRiZW5kc3EAfgIudAAEYWtrYXNxAH4CLnQABnNhbXBsZXNxAH4CLnQABnJvdXRlc3EAfgIzc3EAfgIidAAKRGlyZWN0aXZlc3NxAH4CJnNxAH4CKXVxAH4CLAAAAAVzcQB+Ai50AARha2thc3EAfgIudAAEaHR0cHNxAH4CLnQACHNjYWxhZHNsc3EAfgIudAAGc2VydmVycQB+AjNzcQB+AiJ0AB9GcmFtZWRFbnRpdHlTdHJlYW1pbmdEaXJlY3RpdmVzc3EAfgImc3EAfgIpdXEAfgIsAAAABnNxAH4CLnQABGFra2FzcQB+Ai50AARodHRwc3EAfgIudAAIc2NhbGFkc2xzcQB+Ai50AAZzZXJ2ZXJzcQB+Ai50AApkaXJlY3RpdmVzcQB+AjNzcQB+AiJ0ABNXZWJTb2NrZXREaXJlY3RpdmVzcQB+AnRzcQB+AiJ0ABJTZWN1cml0eURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEFNjaGVtZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAD1JvdXRlRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAVUmVzcG9uZFdpdGhEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA9SYW5nZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQADlBhdGhEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AB9JbXBsaWNpdFBhdGhNYXRjaGVyQ29uc3RydWN0aW9ucQB+AmdzcQB+AiJ0AAxQYXRoTWF0Y2hlcnNxAH4CZ3NxAH4CInQAEVRpbWVvdXREaXJlY3RpdmVzcQB+AnRzcQB+AiJ0ABNQYXJhbWV0ZXJEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA5NaXNjRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAQTWV0aG9kRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAVTWFyc2hhbGxpbmdEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA5Ib3N0RGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAQSGVhZGVyRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAQRnV0dXJlRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAATRm9ybUZpZWxkRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAcVG9OYW1lUmVjZXB0YWNsZUVuaGFuY2VtZW50c3NxAH4CJnNxAH4CKXVxAH4CLAAAAAVzcQB+Ai50AARha2thc3EAfgIudAAEaHR0cHNxAH4CLnQACHNjYWxhZHNsc3EAfgIudAAGY29tbW9ucQB+AjNzcQB+AiJ0ABRGaWxlVXBsb2FkRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAZRmlsZUFuZFJlc291cmNlRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAATRXhlY3V0aW9uRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAQQ29kaW5nRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAATRGVidWdnaW5nRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAQQ29va2llRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAYQ2FjaGVDb25kaXRpb25EaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA9CYXNpY0RpcmVjdGl2ZXNxAH4CdHNxAH4CInQAElJvdXRlQ29uY2F0ZW5hdGlvbnEAfgJnc3EAfgIidAAGT2JqZWN0cQB+AktzcQB+AiJ0AANBbnlxAH4CKHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAGWNvbS5saWdodGJlbmQuYWtrYS5zYW1wbGVzcQB+Asp0ABJjb20ubGlnaHRiZW5kLmFra2FzcQB+Asp0AANjb21zcQB+Asp0AA1jb20ubGlnaHRiZW5kc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcu/DtznVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADsvVXNlcnMvY2FybC9ha2thLXF1aWNrc3RhcnQtc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCTfONs7x93OrhGMEhQypKVNRgm0
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwm/oy1QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAlzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHDyI04ydAAKX3N5bWJvbDJOUnNxAH4ACy3nf7V0AAJldnNxAH4ACxAnsCJ0AB5fZW5oYW5jZVJvdXRlV2l0aENvbmNhdGVuYXRpb25zcQB+AAsNHKLIdAAVX3ZhbHVlTWFwMlBhdGhNYXRjaGVyc3EAfgALB9CU0nQAJ19zdHJpbmdOYW1lT3B0aW9uUmVjZXB0YWNsZTJQYXRoTWF0Y2hlcnNxAH4AC0ctDvt0ACFfc3RyaW5nRXh0cmFjdGlvblBhaXIyUGF0aE1hdGNoZXJzcQB+AAtQdQSxdAAbX3NlZ21lbnRTdHJpbmdUb1BhdGhNYXRjaGVyc3EAfgALtq6yYXQACl9zdHJpbmcyTlJzcQB+AAvXfl+KdAASX3JlZ2V4MlBhdGhNYXRjaGVydXEAfgAJAAAA53NxAH4AC1PYHCB0ABVleHRyYWN0UGFyc2VyU2V0dGluZ3NzcQB+AAsVZJRtdAAJZm9ybUZpZWxkc3EAfgALXc1MfXQAEHdpdGhSYW5nZVN1cHBvcnRzcQB+AAt8H4pJdAASd2l0aFJlcXVlc3RUaW1lb3V0c3EAfgAL5xAz5nQAFHBhdGhFbmRPclNpbmdsZVNsYXNoc3EAfgALUWCrYnQABm5vdGlmeXNxAH4AC76J8jp0AAlJbnROdW1iZXJzcQB+AAuQkzscdAARYXV0aGVudGljYXRlQmFzaWNzcQB+AAv/JSoVdAATZXh0cmFjdFN0cmljdEVudGl0eXNxAH4AC6QBWQF0AA9wYXRoU2luZ2xlU2xhc2hzcQB+AAtkIALEdAAYcmVzcG9uc2VFbmNvZGluZ0FjY2VwdGVkc3EAfgALZ258unQABm1ldGhvZHNxAH4ACwcEyMh0AARwb3N0c3EAfgALR60A03QAEm1hcFJvdXRlUmVzdWx0V2l0aHNxAH4AC3D74gp0ABdhdXRoZW50aWNhdGVPQXV0aDJBc3luY3NxAH4AC6azY2Z0ABFoZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC3Pj0HB0AApmaWxlVXBsb2Fkc3EAfgALxdzrDnQADVJlbWFpbmluZ1BhdGhzcQB+AAusdciSdAAJUmVtYWluaW5nc3EAfgALwERyK3QAFW9wdGlvbmFsSGVhZGVyVmFsdWVQRnNxAH4AC5mdV4J0AAh0cHJvdmlkZXNxAH4AC5a/SL50AAlwYXJhbWV0ZXJzcQB+AAvfRipZdAANZXh0cmFjdE1ldGhvZHNxAH4ACwdheHR0ABlyZXNwb25kV2l0aERlZmF1bHRIZWFkZXJzc3EAfgALh2xl2XQAEnJlc3BvbmRXaXRoSGVhZGVyc3NxAH4ACys7Vbl0ABp3aXRoUmVxdWVzdFRpbWVvdXRSZXNwb25zZXNxAH4AC5Jb+5h0AAR3YWl0c3EAfgALloWWRnQAFWxpc3REaXJlY3RvcnlDb250ZW50c3NxAH4AC4jFzvd0ABlleHRyYWN0VXBncmFkZVRvV2ViU29ja2V0c3EAfgALkZbPbnQADSRhc0luc3RhbmNlT2ZzcQB+AAvfFQ2wdAAEcGF0aHNxAH4AC4VK7d10ABlleHRyYWN0T2ZmZXJlZFdzUHJvdG9jb2xzc3EAfgALNbU6PnQABnJvdXRlc3NxAH4ACyCicbh0AAppbnN0YW5jZU9mc3EAfgAL+SPcBnQAB05ldXRyYWxzcQB+AAsuQSDhdAAHY29tcG9zZXNxAH4AC3sHcn90AAhyZWRpcmVjdHNxAH4AC3qgqVp0ABJyZXF1ZXN0RW50aXR5RW1wdHlzcQB+AAsnBKs3dAANaGVhZGVyVmFsdWVQRnNxAH4AC5U+qaF0AA5hdXRob3JpemVBc3luY3NxAH4AC4vx3MF0AAdQYXRoRW5kc3EAfgALozkzsnQAD2Zyb21EZWNpbWFsQ2hhcnNxAH4AC2wzvG10AAxmb3JtRmllbGRNYXBzcQB+AAsiWiMgdAAQZXh0cmFjdERhdGFCeXRlc3NxAH4AC6+TZSR0AAZlcXVhbHNzcQB+AAsk6aYqdAAPQXV0aGVudGljYXRvclBGc3EAfgALQh6d1nQAE2lnbm9yZVRyYWlsaW5nU2xhc2hzcQB+AAtjcxt9dAAIbWludXNPbmVzcQB+AAuL/swzdAARcmF3UGF0aFByZWZpeFRlc3RzcQB+AAuHMAITdAAYZ2V0RnJvbVJlc291cmNlRGlyZWN0b3J5c3EAfgALg3edOXQAE29wdGlvbmFsSGVhZGVyVmFsdWVzcQB+AAvSgcf3dAAQZ2V0RnJvbURpcmVjdG9yeXNxAH4ACwqNX8N0AAh0ZXh0cmFjdHNxAH4AC4s68hR0AAptYXhEaXZCYXNlc3EAfgALEo1k1XQAImdldEZyb21SZXNvdXJjZURpcmVjdG9yeSRkZWZhdWx0JDJzcQB+AAterHcCdAALbWFwU2V0dGluZ3NzcQB+AAtgr2FidAAEaGVhZHNxAH4AC1Wde3V0ABdoYW5kbGVXZWJTb2NrZXRNZXNzYWdlc3NxAH4AC1edPjB0AAxhc0luc3RhbmNlT2ZzcQB+AAstMr+OdAAQaGFuZGxlUmVqZWN0aW9uc3NxAH4AC9d57w90AApwYXRoUHJlZml4c3EAfgAL9sBry3QADUhleExvbmdOdW1iZXJzcQB+AAsmr0QIdAAqaGFuZGxlV2ViU29ja2V0TWVzc2FnZXNGb3JPcHRpb25hbFByb3RvY29sc3EAfgALNQIr2HQADEhleEludE51bWJlcnNxAH4AC6aJvb50AARob3N0c3EAfgAL46A7gXQAGHJlc3BvbmRXaXRoRGVmYXVsdEhlYWRlcnNxAH4AC6HohB90AAxwYXJhbWV0ZXJNYXBzcQB+AAtdh5cMdAAOdG9TdHJpY3RFbnRpdHlzcQB+AAtfhqIBdAAKTG9uZ051bWJlcnNxAH4ACzKmjF90AAh2YWxpZGF0ZXNxAH4AC+r845t0AAxzeW5jaHJvbml6ZWRzcQB+AAs2logldAATcmVqZWN0RW1wdHlSZXNwb25zZXNxAH4AC+COaUx0AAhmcm9tQ2hhcnNxAH4AC7yDQsd0AAd1bmFyeV8hc3EAfgALDdedv3QAD2dldEZyb21SZXNvdXJjZXNxAH4AC7UtU4Z0ABJyZXF1ZXN0RW5jb2RlZFdpdGhzcQB+AAvFiieUdAAGY29uY2F0c3EAfgAL2ZVIzHQAIXdpdGhQcmVjb21wcmVzc2VkTWVkaWFUeXBlU3VwcG9ydHNxAH4AC3k6nt90ABJhdXRoZW50aWNhdGVPQXV0aDJzcQB+AAur+sWidAAVcmVjb3ZlclJlamVjdGlvbnNXaXRoc3EAfgALzI67PXQADSRpc0luc3RhbmNlT2ZzcQB+AAt4BaPvdAAPY2FuY2VsUmVqZWN0aW9uc3EAfgAL5WaODnQAIHJlZGlyZWN0VG9UcmFpbGluZ1NsYXNoSWZNaXNzaW5nc3EAfgALlbA5KXQAB2FuZFRoZW5zcQB+AAtwKSRTdAAJV2ViU2VydmVyc3EAfgALPzMhe3QADGRlbGV0ZUNvb2tpZXNxAH4AC1VK3Kp0AAJhc3NxAH4AC85qVpZ0AA1leHRyYWN0U2NoZW1lc3EAfgAL4s7GC3QAEkFzeW5jQXV0aGVudGljYXRvcnNxAH4AC/lQqEF0ABhhdXRoZW50aWNhdGVCYXNpY1BGQXN5bmNzcQB+AAtiRvXfdAABfHNxAH4AC36l/f10AAtleHRyYWN0SG9zdHNxAH4AC2ERVup0ABZkZWxldGVDb29raWUkZGVmYXVsdCQzc3EAfgALQQFdIXQAEm1hcFJlc3BvbnNlSGVhZGVyc3NxAH4AC2C9TIF0ABRyZXF1ZXN0RW50aXR5UHJlc2VudHNxAH4AC5eDNMB0AA5lbmNvZGVSZXNwb25zZXNxAH4ACxqyuLF0AARtYWluc3EAfgALffi8OXQAEmV4dHJhY3RBY3RvclN5c3RlbXNxAH4ACxYRdRd0AAxzaW1wbGVSb3V0ZXNzcQB+AAuyvcpwdAAVZXh0cmFjdFJlcXVlc3RDb250ZXh0c3EAfgALpFfx8HQAEmVuY29kZVJlc3BvbnNlV2l0aHNxAH4AC7pw4At0AAdwcm92aWRlc3EAfgALPI37d3QABnJlamVjdHNxAH4AC4oshlp0AAlub3RpZnlBbGxzcQB+AAsHMdKfdAAaZ2V0RnJvbUJyb3dzZWFibGVEaXJlY3RvcnlzcQB+AAurocQGdAALY29uZGl0aW9uYWxzcQB+AAu8oVO5dAAZb3B0aW9uYWxIZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC/HTv9h0AAR0bWFwc3EAfgALmWMoUHQACmV4dHJhY3RVcmlzcQB+AAsUYtJ9dAAMaXNJbnN0YW5jZU9mc3EAfgALwlMI/HQAInJlZGlyZWN0VG9Ob1RyYWlsaW5nU2xhc2hJZlByZXNlbnRzcQB+AAufmZxTdAAHcGF0aEVuZHNxAH4ACySAD6h0AA1yYXdQYXRoUHJlZml4c3EAfgALuWIEO3QAB29wdGlvbnNzcQB+AAuLC1d8dAAKbWFwUmVxdWVzdHNxAH4AC8JBF5x0ACJoYW5kbGVXZWJTb2NrZXRNZXNzYWdlc0ZvclByb3RvY29sc3EAfgALMB0muHQACW9uU3VjY2Vzc3NxAH4AC2yHvF90ABFtYXBSZXNwb25zZUVudGl0eXNxAH4AC9tI1ep0ABR3aXRoRXhlY3V0aW9uQ29udGV4dHNxAH4AC3ZpqJN0AAhmYWlsV2l0aHNxAH4AC8XLfDZ0ABBtYXBVbm1hdGNoZWRQYXRoc3EAfgALz8YFi3QABjxpbml0PnNxAH4AC+bsahR0AAtnZXRGcm9tRmlsZXNxAH4AC4dfwAF0ABVvbkNvbXBsZXRlV2l0aEJyZWFrZXJzcQB+AAvb1PTKdAAQbG9nUmVxdWVzdFJlc3VsdHNxAH4AC4wnr2B0AA1tYXBJbm5lclJvdXRlc3EAfgALmLYLqnQAB1NlZ21lbnRzcQB+AAuq74gKdAAIY29tcGxldGVzcQB+AAtQKI82dAAFYXBwbHlzcQB+AAtDvdcxdAARbWFwUmVxdWVzdENvbnRleHRzcQB+AAtQXk+/dAAOcGF0aFByZWZpeFRlc3RzcQB+AAvl2Ql7dAANQXV0aGVudGljYXRvcnNxAH4AC2nwq450ABxnZXRGcm9tQnJvd3NlYWJsZURpcmVjdG9yaWVzc3EAfgALGds4iHQADGNvbXBsZXRlV2l0aHNxAH4AC0lFeRp0AAxwYXJhbWV0ZXJTZXFzcQB+AAtovEcgdAAOb3B0aW9uYWxDb29raWVzcQB+AAuzjMkAdAACPT1zcQB+AAuUZP0AdAAGc2NoZW1lc3EAfgALSAV3ZHQAFGF1dGhlbnRpY2F0ZU9BdXRoMlBGc3EAfgALX6PdGnQABmNvb2tpZXNxAH4AC7cXLFR0ABRBdXRoZW50aWNhdGlvblJlc3VsdHNxAH4ACywNT3x0AAVTbGFzaHNxAH4AC1ppjfd0AAVjbG9uZXNxAH4AC4xQ0zp0AAlhdXRob3JpemVzcQB+AAv+Sor2dAAUbWFwUm91dGVSZXN1bHRGdXR1cmVzcQB+AAvmjHRKdAAZYXV0aGVudGljYXRlT0F1dGgyUEZBc3luY3NxAH4AC9BpGCt0ABtSZXF1ZXN0VG9Tb3VyY2VVbm1hcnNoYWxsZXJzcQB+AAtU2ORBdAALaGVhZGVyVmFsdWVzcQB+AAsCpNZbdAAKaGFuZGxlV2l0aHNxAH4AC6ERW6p0ABB3aXRoTWF0ZXJpYWxpemVyc3EAfgALJ4E9T3QABmRlbGV0ZXNxAH4AC1MYXfN0ABFyZWNvdmVyUmVqZWN0aW9uc3NxAH4AC7HFtHl0AAYkaW5pdCRzcQB+AAvzO6FndAAWZGVsZXRlQ29va2llJGRlZmF1bHQkMnNxAH4AC4hIkwN0AAphc1NvdXJjZU9mc3EAfgALnmHsI3QABmVudGl0eXNxAH4ACy8M2Ot0AAlzZXRDb29raWVzcQB+AAtgcl/WdAAEcGFzc3NxAH4AC+LnRdN0AA9leHRyYWN0Q2xpZW50SVBzcQB+AAsnJLBsdAADcHV0c3EAfgALl2azF3QAE2F1dGhlbnRpY2F0ZUJhc2ljUEZzcQB+AAsuiQ/KdAARcGFyYW1ldGVyTXVsdGlNYXBzcQB+AAtRYhdddAAQcmVwZWF0JGRlZmF1bHQkM3NxAH4AC5EdOM50ABBtYXBSb3V0ZVJlc3VsdFBGc3EAfgALmWlftnQACHRvU3RyaW5nc3EAfgALD2snQ3QAE2V4dHJhY3RNYXRlcmlhbGl6ZXJzcQB+AAuyixbXdAAJbG9nUmVzdWx0c3EAfgAL0bngLHQAG292ZXJyaWRlTWV0aG9kV2l0aFBhcmFtZXRlcnNxAH4ACzJ+YYB0AAd3aXRoTG9nc3EAfgALWsE8vnQACFNlZ21lbnRzc3EAfgALk16BG3QADm1hcFJvdXRlUmVzdWx0c3EAfgAL+emQA3QAAiE9c3EAfgALAGRAU3QAFGV4dHJhY3RSZXF1ZXN0RW50aXR5c3EAfgALKzebkHQAEWZvcm1GaWVsZE11bHRpTWFwc3EAfgALIqfI5nQAA2dldHNxAH4AC41Qd6d0ABRBc3luY0F1dGhlbnRpY2F0b3JQRnNxAH4ACwzved10AA13aXRoU2l6ZUxpbWl0c3EAfgAL8P/8JHQADnBhdGhTdWZmaXhUZXN0c3EAfgALL5liwnQACHRmbGF0TWFwc3EAfgALJA3eL3QAF3NlbGVjdFByZWZlcnJlZExhbmd1YWdlc3EAfgALZ2s/VXQACGdldENsYXNzc3EAfgAL97QquHQABnJlcGVhdHNxAH4AC6dJoNh0ABFkZWNvZGVSZXF1ZXN0V2l0aHNxAH4ACzgkgkl0ABFoZWFkZXJWYWx1ZUJ5VHlwZXNxAH4AC6bB3Ml0ABBoYW5kbGVFeGNlcHRpb25zc3EAfgALzs79OHQACnBhdGhTdWZmaXhzcQB+AAsSBblZdAAVY29tcGxldGVPclJlY292ZXJXaXRoc3EAfgALYNjIjXQAFXdpdGhvdXRSZXF1ZXN0VGltZW91dHNxAH4AC2kEqIR0ABRtYXBSb3V0ZVJlc3VsdFdpdGhQRnNxAH4AC6DWywN0AApvbkNvbXBsZXRlc3EAfgALEf5RxXQAC21hcFJlc3BvbnNlc3EAfgALhhS5DnQABXBhdGNoc3EAfgALj1hQgHQADHVwbG9hZGVkRmlsZXNxAH4AC6vdvmh0AA5ub3RoaW5nTWF0Y2hlcnNxAH4AC62wOhN0ABNfZGVmYXVsdENsYXNzTG9hZGVyc3EAfgAL+zfJRnQAEGNhbmNlbFJlamVjdGlvbnNzcQB+AAutzdUndAAISmF2YVVVSURzcQB+AAtpsX99dAAKbG9nUmVxdWVzdHNxAH4AC0bGXMV0AAJuZXNxAH4AC/gslBh0AA1tYXBSZWplY3Rpb25zc3EAfgALalAi0HQAF2V4dHJhY3RFeGVjdXRpb25Db250ZXh0c3EAfgALPW7Bi3QACmZvcm1GaWVsZHNzcQB+AAuUXQJqdAAJdHJhbnNmb3Jtc3EAfgALcuM+GHQAGWdldEZyb21SZXNvdXJjZSRkZWZhdWx0JDNzcQB+AAvJfQPAdAAWYXV0aGVudGljYXRlQmFzaWNBc3luY3NxAH4AC3gZyXh0AApwYXJhbWV0ZXJzc3EAfgALZxa0xHQAAX5zcQB+AAsAlekKdAAUZXh0cmFjdFVubWF0Y2hlZFBhdGhzcQB+AAtn1KfEdAANTnVtYmVyTWF0Y2hlcnNxAH4ACyb7XKZ0ACFhdXRoZW50aWNhdGVPclJlamVjdFdpdGhDaGFsbGVuZ2VzcQB+AAtHbEAWdAAPY2hlY2tTYW1lT3JpZ2luc3EAfgALI5SHiXQAEHdpdGhvdXRTaXplTGltaXRzcQB+AAvnyOyTdAACZXFzcQB+AAuVZrTAdAAMZm9ybUZpZWxkU2Vxc3EAfgAL/ky1A3QAEmV4dHJhY3RNYXRjaGVkUGF0aHNxAH4ACyzfKZx0AAxEb3VibGVOdW1iZXJzcQB+AAvKE5A/dAAMd2l0aFNldHRpbmdzc3EAfgALIEwMA3QAAS9zcQB+AAsUeWgmdAAOZXh0cmFjdFJlcXVlc3RzcQB+AAuGZsWIdAAKZXh0cmFjdExvZ3NxAH4AC8Fxt/Z0ABJleHRyYWN0Q3JlZGVudGlhbHNzcQB+AAuUw14SdAANZGVjb2RlUmVxdWVzdHNxAH4ACz+Asjt0ABFyZXNwb25kV2l0aEhlYWRlcnNxAH4ACw3hF1J0AAIjI3NxAH4ACxK+XjF0AAhmaW5hbGl6ZXNxAH4ACy8wJWx0AAdleHRyYWN0c3EAfgALaWCNsnQACGhhc2hDb2Rlc3EAfgALJequdHQAD2V4dHJhY3RTZXR0aW5nc3NxAH4AC9g33SN0AAtmcm9tSGV4Q2hhcnNxAH4ACxNibnx0ABlvcHRpb25hbEhlYWRlclZhbHVlQnlUeXBlc3EAfgAL3amPRXQAEXNlcGFyYXRlT25TbGFzaGVzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4B93hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAI2NvbS5saWdodGJlbmQuYWtrYS5zYW1wbGUuV2ViU2VydmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgIPc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AfdMAAlpbmhlcml0ZWRxAH4B90wAB3BhcmVudHNxAH4B93hxAH4CFHNxAH4CD3VxAH4B8gAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4B+HEAfgIBdXEAfgICAAAAAHNxAH4CBABxAH4A4XVxAH4CBwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgITdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4CE3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4CL3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+Ahx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+Agp0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AiNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AhNzcQB+AiJ0AAVBcnJheXEAfgIodXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AiJ0AAZTdHJpbmdzcQB+AiZzcQB+Ail1cQB+AiwAAAADc3EAfgIudAAEamF2YXNxAH4CLnQABGxhbmdxAH4CM3NxAH4CD3VxAH4B8gAAAABzcQB+Ag91cQB+AkcAAAAhc3EAfgIidAAMU2ltcGxlUm91dGVzc3EAfgImc3EAfgIpdXEAfgIsAAAABnNxAH4CLnQAA2NvbXNxAH4CLnQACWxpZ2h0YmVuZHNxAH4CLnQABGFra2FzcQB+Ai50AAZzYW1wbGVzcQB+Ai50AAZyb3V0ZXNxAH4CM3NxAH4CInQACkRpcmVjdGl2ZXNzcQB+AiZzcQB+Ail1cQB+AiwAAAAFc3EAfgIudAAEYWtrYXNxAH4CLnQABGh0dHBzcQB+Ai50AAhzY2FsYWRzbHNxAH4CLnQABnNlcnZlcnEAfgIzc3EAfgIidAAfRnJhbWVkRW50aXR5U3RyZWFtaW5nRGlyZWN0aXZlc3NxAH4CJnNxAH4CKXVxAH4CLAAAAAZzcQB+Ai50AARha2thc3EAfgIudAAEaHR0cHNxAH4CLnQACHNjYWxhZHNsc3EAfgIudAAGc2VydmVyc3EAfgIudAAKZGlyZWN0aXZlc3EAfgIzc3EAfgIidAATV2ViU29ja2V0RGlyZWN0aXZlc3EAfgJ0c3EAfgIidAASU2VjdXJpdHlEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0ABBTY2hlbWVEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA9Sb3V0ZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAFVJlc3BvbmRXaXRoRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAPUmFuZ2VEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0AA5QYXRoRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAfSW1wbGljaXRQYXRoTWF0Y2hlckNvbnN0cnVjdGlvbnEAfgJnc3EAfgIidAAMUGF0aE1hdGNoZXJzcQB+AmdzcQB+AiJ0ABFUaW1lb3V0RGlyZWN0aXZlc3EAfgJ0c3EAfgIidAATUGFyYW1ldGVyRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAOTWlzY0RpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEE1ldGhvZERpcmVjdGl2ZXNxAH4CdHNxAH4CInQAFU1hcnNoYWxsaW5nRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAOSG9zdERpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEEhlYWRlckRpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEEZ1dHVyZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAE0Zvcm1GaWVsZERpcmVjdGl2ZXNxAH4CdHNxAH4CInQAHFRvTmFtZVJlY2VwdGFjbGVFbmhhbmNlbWVudHNzcQB+AiZzcQB+Ail1cQB+AiwAAAAFc3EAfgIudAAEYWtrYXNxAH4CLnQABGh0dHBzcQB+Ai50AAhzY2FsYWRzbHNxAH4CLnQABmNvbW1vbnEAfgIzc3EAfgIidAAURmlsZVVwbG9hZERpcmVjdGl2ZXNxAH4CdHNxAH4CInQAGUZpbGVBbmRSZXNvdXJjZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAE0V4ZWN1dGlvbkRpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEENvZGluZ0RpcmVjdGl2ZXNxAH4CdHNxAH4CInQAE0RlYnVnZ2luZ0RpcmVjdGl2ZXNxAH4CdHNxAH4CInQAEENvb2tpZURpcmVjdGl2ZXNxAH4CdHNxAH4CInQAGENhY2hlQ29uZGl0aW9uRGlyZWN0aXZlc3EAfgJ0c3EAfgIidAAPQmFzaWNEaXJlY3RpdmVzcQB+AnRzcQB+AiJ0ABJSb3V0ZUNvbmNhdGVuYXRpb25xAH4CZ3NxAH4CInQABk9iamVjdHEAfgJLc3EAfgIidAADQW55cQB+Aih1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0ABljb20ubGlnaHRiZW5kLmFra2Euc2FtcGxlc3EAfgLKdAASY29tLmxpZ2h0YmVuZC5ha2thc3EAfgLKdAADY29tc3EAfgLKdAANY29tLmxpZ2h0YmVuZHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLwSUtt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAA7L1VzZXJzL2NhcmwvYWtrYS1xdWlja3N0YXJ0LXNjYWxhL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTGXMEPe/BnBpGc+BSuZUfiG0OgiQ==
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw+oSmhgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwTWKa/nQABm5vdGlmeXNxAH4ADGjkybZ0AAR3YWl0c3EAfgAMG38R3nQADSRhc0luc3RhbmNlT2ZzcQB+AAwtRwx0dAAGZXF1YWxzc3EAfgAMWITYCHQADGFzSW5zdGFuY2VPZnNxAH4ADOaVf4Z0AAxzeW5jaHJvbml6ZWRzcQB+AAxg3KY7dAANJGlzSW5zdGFuY2VPZnNxAH4ADHghov90AAlub3RpZnlBbGxzcQB+AAzlKmMAdAAMaXNJbnN0YW5jZU9mc3EAfgAMbPip6nQAAj09c3EAfgAMDnwme3QABWNsb25lc3EAfgAMuMDrH3QACmJhc2VSb3V0ZXNzcQB+AAyz0fH1dAAKQmFzZVJvdXRlc3NxAH4ADOMfQyF0AAh0b1N0cmluZ3NxAH4ADIjq8jZ0AAIhPXNxAH4ADJwfSBt0AAhnZXRDbGFzc3NxAH4ADFUG4S10AAJuZXNxAH4ADCA3DYZ0AAJlcXNxAH4ADOgUte50AAIjI3NxAH4ADFHZ3sZ0AAhmaW5hbGl6ZXNxAH4ADBisLKx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ACtjb20ubGlnaHRiZW5kLmFra2Euc2FtcGxlLnJvdXRlcy5CYXNlUm91dGVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXnNxAH4AWXVxAH4APAAAAABzcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBddAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBdc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB2dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB3c3EAfgBqdAADQW55c3EAfgBuc3EAfgBxdXEAfgB0AAAAAnNxAH4AdnQABXNjYWxhcQB+AH11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABljb20ubGlnaHRiZW5kLmFra2Euc2FtcGxlc3EAfgCHdAAgY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5yb3V0ZXNzcQB+AId0ABJjb20ubGlnaHRiZW5kLmFra2FzcQB+AId0AANjb21zcQB+AId0AA1jb20ubGlnaHRiZW5kc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcu72EAHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvY2FybC9ha2thLXF1aWNrc3RhcnQtc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFNbBTbN8U1/3NrGFVjniPYIwdpCq
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw8qeEswAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwydlLyXQABm5vdGlmeXNxAH4ADD9epmp0AAR3YWl0c3EAfgAMV/+2AHQADSRhc0luc3RhbmNlT2ZzcQB+AAx6GGJPdAAGZXF1YWxzc3EAfgAMC9VV23QADGFzSW5zdGFuY2VPZnNxAH4ADM1Zzc10AAxzeW5jaHJvbml6ZWRzcQB+AAwTZag+dAANJGlzSW5zdGFuY2VPZnNxAH4ADErkKYR0AAxzaW1wbGVSb3V0ZXNzcQB+AAwXto29dAAJbm90aWZ5QWxsc3EAfgAML/EOk3QADGlzSW5zdGFuY2VPZnNxAH4ADGKtj4N0AAI9PXNxAH4ADD2QwyV0AAVjbG9uZXNxAH4ADATvPpd0AAxTaW1wbGVSb3V0ZXNzcQB+AAyXhh9UdAAGJGluaXQkc3EAfgAM2QGGgnQACHRvU3RyaW5nc3EAfgAMDTkbSnQAAiE9c3EAfgAMoYk3XXQACGdldENsYXNzc3EAfgAM/oucs3QAAm5lc3EAfgAM+LCWfHQAAmVxc3EAfgAM1mSq9XQAAiMjc3EAfgAMuFeZPXQACGZpbmFsaXplc3EAfgAMVpJVznQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQALWNvbS5saWdodGJlbmQuYWtrYS5zYW1wbGUucm91dGVzLlNpbXBsZVJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABljb20ubGlnaHRiZW5kLmFra2Euc2FtcGxlc3EAfgCJdAAgY29tLmxpZ2h0YmVuZC5ha2thLnNhbXBsZS5yb3V0ZXNzcQB+AIl0ABJjb20ubGlnaHRiZW5kLmFra2FzcQB+AIl0AANjb21zcQB+AIl0AA1jb20ubGlnaHRiZW5kc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcu72EAHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADsvVXNlcnMvY2FybC9ha2thLXF1aWNrc3RhcnQtc2NhbGEvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK+siHaq2BUtur4KgLZ2NNPs/Qp3
+external apis:
+0 items
+source infos:
+5 items
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/AkkaQuickstart.scala -> 
+AAAAAAAAAAA=
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/ExampleSpark.scala -> 
+AAAAAAAAAAA=
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/Webserver.scala -> 
+AAAAAAAAAAA=
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/BaseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/carl/akka-quickstart-scala/src/main/scala/com/lightbend/akka/sample/routes/SimpleRoutes.scala -> 
+AAAAAAAAAAA=
+compilations:
+14 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLpnyHF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLu2Lsd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLu9hAB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvkd0J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvnO8J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvqJz91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvrWFB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvw7c51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLvz68t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLv1zuJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLwApsh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLwEdiR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLwHwYF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXLwSUtt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOy9Vc2Vycy9jYXJsL2Fra2EtcXVpY2tzdGFydC1zY2FsYS90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
