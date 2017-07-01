@@ -1,4 +1,4 @@
-name := "akka-quickstart-scala"
+name := "akka-ikeja-eletric"
 
 version := "1.0"
 
@@ -27,4 +27,5 @@ libraryDependencies ++= Seq(
 
   "com.datastax.spark" % "spark-cassandra-connector_2.11" % "2.0.0-M3",
   "net.liftweb" % "lift-json_2.11" % "2.6.2"
+
 )

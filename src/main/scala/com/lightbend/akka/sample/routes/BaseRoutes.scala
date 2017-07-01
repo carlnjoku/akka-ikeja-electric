@@ -107,17 +107,26 @@ lazy val baseRoutes: Route =
                                                   ($"weighted_avg" * $"tot_con_by_unmetered"/$"unmetered_cust_pop").as("consumption_per_unmetered_cust"),
                                                   (($"weighted_avg" * $"tot_con_by_unmetered"/$"unmetered_cust_pop")*($"unmetered_cust_pop")).as("total_consump_by_unmetered_cust_by_class_by_dt")  )
 
-          val result_final_2 = result_final_1.select($"dt_res",  $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
-                                                  $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
-                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"weighted_avg", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", ($"consumption_per_unmetered_cust"*1).as("30_cap_recommd_unit_for_unmetered"), ($"consumption_per_unmetered_cust" - $"consumption_per_unmetered_cust").as("unbilled_eng_per_cust")  )
+          val estimate = result_final_1.withColumn("recommeded_est", when($"consumption_per_unmetered_cust" > $"current_month_metered_avg_con", $"current_month_metered_avg_con"*1.30).otherwise($"consumption_per_unmetered_cust"))
+
+
+          val result_final_2 = estimate.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
+                                                  $"six_month_avg_con",  $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
+                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"recommeded_est", $"total_consump_by_unmetered_cust_by_class_by_dt", ($"consumption_per_unmetered_cust" - $"consumption_per_unmetered_cust").as("unbilled_eng_per_cust"))
+
 
           val result_final_3 = result_final_2.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
                                                   $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
-                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"weighted_avg", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", $"30_cap_recommd_unit_for_unmetered", $"unbilled_eng_per_cust", (($"30_cap_recommd_unit_for_unmetered")* $"unmetered_cust_pop").as("total_recommd_consumption_by_unmetered_cust"), ($"unbilled_eng_per_cust"* $"unmetered_cust_pop").as("total_unbilled_eng")  )
+                                                  $"total_pop_meter_unm_current_month", $"recommeded_est", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"weighted_avg", $"consumption_per_unmetered_cust",  $"total_consump_by_unmetered_cust_by_class_by_dt", $"unbilled_eng_per_cust", (($"recommeded_est")* $"unmetered_cust_pop").as("total_recommd_consumption_by_unmetered_cust"), ($"unbilled_eng_per_cust"* $"unmetered_cust_pop").as("total_unbilled_eng"))
+
 
           val result_final_4 = result_final_3.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
                                                   $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"weighted_avg",
-                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", $"30_cap_recommd_unit_for_unmetered", $"unbilled_eng_per_cust", $"total_recommd_consumption_by_unmetered_cust", $"total_unbilled_eng" )
+                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", $"recommeded_est", $"unbilled_eng_per_cust", $"total_recommd_consumption_by_unmetered_cust", $"total_unbilled_eng")
+
+          //val est = result_final_4.select(round($"recommeded_est",2), $"current_month_metered_avg_con", $"consumption_per_unmetered_cust").show()
+
+
 
 
           val result_final_5 = result_final_4.na.fill(0)
@@ -125,52 +134,46 @@ lazy val baseRoutes: Route =
           val prop=new java.util.Properties()
           prop.put("user","root")
           prop.put("password","")
-          val url="jdbc:mysql://localhost:3306/ikeja"
+          val url="jdbc:mysql://localhost:3306/ikeja_scala"
           //df is a dataframe contains the data which you want to write.
           result_final_5.write.mode(SaveMode.Append).jdbc(url,"result",prop)
 
 
+          /*
+          val selectedData = average.select("*")
+          selectedData.write.format("csv").option("header", "true")
+          .save(s"resources/test.csv")
+          */
 
-        /*
-        1  $"current_month_pop" population_1
-        2  $"current_month_con", energy_consumption_1
-        3  $"current_month_metered_avg_con"  2/1
-        4  $"six_month_avg_pop" population_1
-        5  $"six_month_avg_con"  average_3
-        6  $"total_metered_consumption_in_current_month" 1 X 2
-        7  $"total_avg_con_by_class_by_dt" 1 X 5 total_avg_metered_con
-        8  $"sum(total_avg_metered_con)" group_total_average_metered_consumption_1
-        9  $"weighted_avg" = (7/8 )x 100
-        10 $"total_customer_pop_by_dt" = current_month_unmetered_pop + month_6_pop
-        11 $"tot_con_by_unmetered" tot_unmetered_con_1
-        13 $"unmetered_cust_pop_by_dt" = 10 - 1
-        14 $"consumption_by_unmetered_cust_by_dt"  = 9 *(11/13)
-        15 $"tot_consumption_by_unmetered_cust_by_tariff_by_dt" 13*14
+          val billing_eff_1 = input_2.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid")
+          val billing_eff_2 = result_final_4.groupBy("dt_res").sum("total_recommd_consumption_by_unmetered_cust")
+          val billing_eff_3 = result_final_4.groupBy("dt_res").sum("total_unbilled_eng")
 
 
-          //val fType = f._2
-          //if (fType  == "StringType") { println(s"STRING_TYPE") }
-          //if (fType  == "MapType") { println(s"MAP_TYPE") }
-          //else {println("....")}
-          //println("Name %s Type:%s - all:%s".format(fName , fType, f))
+          val billing_eff_4 = billing_eff_1.join(billing_eff_2, $"dt_inp" === $"dt_res")
+          val billing_eff_5 = billing_eff_4.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)")
 
-          //}
+          val billing_eff_6 = billing_eff_5.join(billing_eff_3, $"dt_inp" === $"dt_res")
 
+          val billing_eff_7 = billing_eff_6.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", $"sum(total_unbilled_eng)" )
 
-         //input_1.createOrReplaceTempView("input")
-         //val df3 = spark.sql("Select * from input")
-         */
+          val billing_eff_8 = billing_eff_7.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", ($"md" + $"prime" + $"actual_ppm" + $"ppaid" + $"sum(total_recommd_consumption_by_unmetered_cust)").as("total_billed"), $"sum(total_unbilled_eng)" )
 
-         /*
-         val selectedData = average.select("*")
-         selectedData.write.format("csv").option("header", "true")
-         .save(s"resources/test.csv")
-         */
+          val billing_eff_9 = billing_eff_8.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", $"total_billed", ($"total_billed"/$"tot_recv").as("billing_efficincy"), $"sum(total_unbilled_eng)", ($"tot_recv" - $"total_billed").as("energy_loss") )
+
+          val billing_eff_final = billing_eff_9.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", $"total_billed", $"billing_efficincy", $"sum(total_unbilled_eng)", ($"tot_recv" - $"total_billed").as("energy_loss") )
 
 
+          val prop1=new java.util.Properties()
+          prop1.put("user","root")
+          prop1.put("password","")
+          val url_1="jdbc:mysql://localhost:3306/ikeja_scala"
+          //df is a dataframe contains the data which you want to write.
+          billing_eff_final.write.mode(SaveMode.Append).jdbc(url_1,"billing_efficiency",prop1)
 
-         /*
-         // Load training data
+
+          /*
+          // Load training data
           val training = spark.read.format("libsvm")
             .load("resources/sample_linear_regression_data.txt")
 
@@ -196,13 +199,13 @@ lazy val baseRoutes: Route =
           println(s"RMSE: ${trainingSummary.rootMeanSquaredError}")
           println(s"r2: ${trainingSummary.r2}")
 
-         val prop=new java.util.Properties()
-         prop.put("user","root")
-         prop.put("password","")
-         val url="jdbc:mysql://localhost:3306/ikeja"
-         //df is a dataframe contains the data which you want to write.
-         //res.write.mode(SaveMode.Append).jdbc(url,"data_grid",prop)
-        */
+          val prop=new java.util.Properties()
+          prop.put("user","root")
+          prop.put("password","")
+          val url="jdbc:mysql://localhost:3306/ikeja"
+          //df is a dataframe contains the data which you want to write.
+          //res.write.mode(SaveMode.Append).jdbc(url,"data_grid",prop)
+          */
 
         complete("Server up and running") // Completes with some text
    }

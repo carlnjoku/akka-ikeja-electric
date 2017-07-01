@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="akka-ikeja-eletric" module="akka-ikeja-eletric_2.11" revision="1.0" status="release" publication="20170628175410">
+		<description>
+		akka-ikeja-eletric
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		
+	</configurations>
+	<publications>
+		<artifact name="akka-ikeja-eletric_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="akka-ikeja-eletric_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="akka-ikeja-eletric_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="akka-ikeja-eletric_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.1.0" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.24" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.11" rev="2.5.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http_2.11" rev="10.0.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-xml_2.11" rev="10.0.7" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.11" rev="2.5.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-http-testkit_2.11" rev="10.0.7" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.1" conf="test->default(compile)"/>
+		<dependency org="com.datastax.spark" name="spark-cassandra-connector_2.11" rev="2.0.0-M3" conf="compile->default(compile)"/>
+		<dependency org="net.liftweb" name="lift-json_2.11" rev="2.6.2" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>
