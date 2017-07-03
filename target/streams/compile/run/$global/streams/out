@@ -1,4 +1,6 @@
 [0m[[0minfo[0m] [0mRunning com.lightbend.akka.sample.WebServer [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/Users/carl/akka-ikeja-electric/target/scala-2.11/classes[0m
 [0m[[0mdebug[0m] [0m	/Users/carl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
@@ -150,5 +152,3 @@
 [0m[[0mdebug[0m] [0m	/Users/carl/.ivy2/cache/com.twitter/jsr166e/jars/jsr166e-1.1.0.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/carl/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar[0m
 [0m[[0mdebug[0m] [0m	/Users/carl/.ivy2/cache/net.liftweb/lift-json_2.11/jars/lift-json_2.11-2.6.2.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m

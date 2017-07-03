@@ -88,7 +88,7 @@ lazy val baseRoutes: Route =
           val result_3 = result_2.join(input_2, $"dt_res" === $"dt_inp")
 
 
-          val result_4 = result_3.select($"dt_res", $"tclass_res", $"month_6_pop", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"), $"six_month_avg_con", $"total_avg_metered_con", $"total_pop_meter_unm_current_month", $"tot_con_by_unmetered")
+          val result_4 = result_3.select($"inID", $"dt_res", $"tclass_res", $"month_6_pop", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"), $"six_month_avg_con", $"total_avg_metered_con", $"total_pop_meter_unm_current_month", $"tot_con_by_unmetered")
 
 
           val group_total_average_metered_consumption = result_4.groupBy("dt_res").sum("total_avg_metered_con")
@@ -100,8 +100,8 @@ lazy val baseRoutes: Route =
 
           //val result_7 = result_6.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_avg_con", ($"sum(total_avg_metered_con)")).as("total_avg_metered_con").orderBy($"dt_res".asc).show(100)
 
-          val result_final = result_6.select($"dt_res",  $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"), $"six_month_avg_con", $"total_avg_metered_con", ($"tot_con_by_unmetered").cast("int"), $"sum(total_avg_metered_con)", ($"total_avg_metered_con"/$"sum(total_avg_metered_con)").as("weighted_avg"), $"total_pop_meter_unm_current_month", ($"total_pop_meter_unm_current_month" - $"current_month_pop").as("unmetered_cust_pop") )
-          val result_final_1 = result_final.select($"dt_res",  $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"),
+          val result_final = result_6.select($"inID", $"dt_res",  $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"), $"six_month_avg_con", $"total_avg_metered_con", ($"tot_con_by_unmetered").cast("int"), $"sum(total_avg_metered_con)", ($"total_avg_metered_con"/$"sum(total_avg_metered_con)").as("weighted_avg"), $"total_pop_meter_unm_current_month", ($"total_pop_meter_unm_current_month" - $"current_month_pop").as("unmetered_cust_pop") )
+          val result_final_1 = result_final.select($"inID", $"dt_res",  $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con".cast("int"),
                                                   $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
                                                   $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"weighted_avg",
                                                   ($"weighted_avg" * $"tot_con_by_unmetered"/$"unmetered_cust_pop").as("consumption_per_unmetered_cust"),
@@ -110,33 +110,38 @@ lazy val baseRoutes: Route =
           val estimate = result_final_1.withColumn("recommeded_est", when($"consumption_per_unmetered_cust" > $"current_month_metered_avg_con", $"current_month_metered_avg_con"*1.30).otherwise($"consumption_per_unmetered_cust"))
 
 
-          val result_final_2 = estimate.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
+          val result_final_2 = estimate.select($"inID", $"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
                                                   $"six_month_avg_con",  $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
                                                   $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"recommeded_est", $"total_consump_by_unmetered_cust_by_class_by_dt", ($"consumption_per_unmetered_cust" - $"consumption_per_unmetered_cust").as("unbilled_eng_per_cust"))
 
 
-          val result_final_3 = result_final_2.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
+          val result_final_3 = result_final_2.select($"inID", $"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
                                                   $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"sum(total_avg_metered_con)", $"weighted_avg",
                                                   $"total_pop_meter_unm_current_month", $"recommeded_est", $"unmetered_cust_pop", $"tot_con_by_unmetered", $"unmetered_cust_pop", $"weighted_avg", $"consumption_per_unmetered_cust",  $"total_consump_by_unmetered_cust_by_class_by_dt", $"unbilled_eng_per_cust", (($"recommeded_est")* $"unmetered_cust_pop").as("total_recommd_consumption_by_unmetered_cust"), ($"unbilled_eng_per_cust"* $"unmetered_cust_pop").as("total_unbilled_eng"))
 
 
-          val result_final_4 = result_final_3.select($"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
+          val result_final_4 = result_final_3.select($"inID", $"dt_res", $"tclass_res", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
                                                   $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"weighted_avg",
                                                   $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", $"recommeded_est", $"unbilled_eng_per_cust", $"total_recommd_consumption_by_unmetered_cust", $"total_unbilled_eng")
 
+
           //val est = result_final_4.select(round($"recommeded_est",2), $"current_month_metered_avg_con", $"consumption_per_unmetered_cust").show()
 
+          val grid_data = spark.read.format("csv").option("header","true").csv("resources/data_grid_format.csv")
+          val full_result = grid_data.join(result_final_4, $"dt_res" === $"dt_no" && $"tariff_class" === $"tclass_res")
 
+          val full_result_1 = full_result.select($"inID", $"dt_no", $"tariff_class", $"undertaking", $"business_unit", $"current_month_con", $"current_month_pop", $"current_month_metered_avg_con",
+                                                  $"six_month_avg_con", $"total_avg_metered_con", $"tot_con_by_unmetered", $"weighted_avg",
+                                                  $"total_pop_meter_unm_current_month", $"unmetered_cust_pop", $"consumption_per_unmetered_cust", $"total_consump_by_unmetered_cust_by_class_by_dt", $"recommeded_est", $"unbilled_eng_per_cust", $"total_recommd_consumption_by_unmetered_cust", $"total_unbilled_eng")
 
-
-          val result_final_5 = result_final_4.na.fill(0)
+          //val full_result_1 = result_final_4.na.fill(0)
 
           val prop=new java.util.Properties()
           prop.put("user","root")
           prop.put("password","")
           val url="jdbc:mysql://localhost:3306/ikeja_scala"
           //df is a dataframe contains the data which you want to write.
-          result_final_5.write.mode(SaveMode.Append).jdbc(url,"result",prop)
+          full_result_1.write.mode(SaveMode.Append).jdbc(url,"result",prop)
 
 
           /*
@@ -159,9 +164,9 @@ lazy val baseRoutes: Route =
 
           val billing_eff_8 = billing_eff_7.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", ($"md" + $"prime" + $"actual_ppm" + $"ppaid" + $"sum(total_recommd_consumption_by_unmetered_cust)").as("total_billed"), $"sum(total_unbilled_eng)" )
 
-          val billing_eff_9 = billing_eff_8.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", $"total_billed", ($"total_billed"/$"tot_recv").as("billing_efficincy"), $"sum(total_unbilled_eng)", ($"tot_recv" - $"total_billed").as("energy_loss") )
+          val billing_eff_9 = billing_eff_8.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", ($"sum(total_recommd_consumption_by_unmetered_cust)").as("total_recommd_consumption_by_unmetered_cust"), $"total_billed", ($"total_billed"/$"tot_recv").as("billing_efficincy"), ($"sum(total_unbilled_eng)").as("total_unbilled_eng"), ($"tot_recv" - $"total_billed").as("energy_loss") )
 
-          val billing_eff_final = billing_eff_9.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"sum(total_recommd_consumption_by_unmetered_cust)", $"total_billed", $"billing_efficincy", $"sum(total_unbilled_eng)", ($"tot_recv" - $"total_billed").as("energy_loss") )
+          val billing_eff_final = billing_eff_9.select($"dt_inp", $"tot_recv", $"md", $"prime", $"actual_ppm", $"ppaid", $"total_recommd_consumption_by_unmetered_cust", $"total_billed", $"billing_efficincy", $"total_unbilled_eng", ($"tot_recv" - $"total_billed").as("energy_loss") )
 
 
           val prop1=new java.util.Properties()
